@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AHU</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="username">用户名</string>
+    <string name="password">密　码</string>
+    <string name="loginBt">登　录</string>
+    <string name="schedule">课程表</string>
+    <string name="score">成绩</string>
+    <string name="loginOut">退出</string>
+    <string name="xuenian">学年</string>
+    <string name="xueqi">学期</string>
+    <string name="findKeBiao">查看课表</string>
+
+</resources>

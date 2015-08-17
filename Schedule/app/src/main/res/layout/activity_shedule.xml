@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/xueniantv"
+        android:layout_alignParentLeft="true"
+        android:textSize="25sp"
+        android:text="@string/xuenian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:id="@+id/xuenian"
+        android:layout_marginLeft="70dp"
+        android:layout_alignParentLeft="true"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+   <TextView
+       android:id="@+id/xueqitv"
+       android:text="@string/xueqi"
+       android:textSize="25sp"
+       android:layout_alignParentRight="true"
+       android:layout_marginRight="120dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+    <Spinner
+        android:id="@+id/xueqi"
+        android:layout_alignRight="@id/xueqitv"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_width="80dp"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/findKebiao"
+        android:layout_marginTop="50dp"
+        android:text="@string/findKeBiao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ScrollView
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/scheduletv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </ScrollView>
+</RelativeLayout>
